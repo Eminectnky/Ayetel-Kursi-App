@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0D7E4C2AB7846200B5765C /* AyetelKursiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7E4B2AB7846200B5765C /* AyetelKursiModel.swift */; };
+		FE35A1C02ABAD4D8002110F2 /* ilgili_hadisler.json in Resources */ = {isa = PBXBuildFile; fileRef = FE35A1BF2ABAD4D8002110F2 /* ilgili_hadisler.json */; };
+		FE35A1C22ABAD59F002110F2 /* IlgiliHadislerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE35A1C12ABAD59E002110F2 /* IlgiliHadislerModel.swift */; };
+		FE4E78FE2AB7854D0007F9A3 /* ayetel_dua_turkce.json in Resources */ = {isa = PBXBuildFile; fileRef = FE4E78FD2AB7854D0007F9A3 /* ayetel_dua_turkce.json */; };
+		FE4E79002AB7855E0007F9A3 /* ayetel_dua_meal.json in Resources */ = {isa = PBXBuildFile; fileRef = FE4E78FF2AB7855E0007F9A3 /* ayetel_dua_meal.json */; };
+		FE4E79022AB785700007F9A3 /* ayetel_dua_arapca.json in Resources */ = {isa = PBXBuildFile; fileRef = FE4E79012AB785700007F9A3 /* ayetel_dua_arapca.json */; };
+		FE4E79042AB7857F0007F9A3 /* hadis.json in Resources */ = {isa = PBXBuildFile; fileRef = FE4E79032AB7857E0007F9A3 /* hadis.json */; };
+		FE4E79092AB7903D0007F9A3 /* AyetelKursiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79082AB7903D0007F9A3 /* AyetelKursiApp.swift */; };
+		FE4E790B2AB790640007F9A3 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E790A2AB790640007F9A3 /* SplashScreenView.swift */; };
+		FE4E790E2AB790DF0007F9A3 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E790D2AB790DF0007F9A3 /* MainTabbedView.swift */; };
+		FE4E79102AB791240007F9A3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E790F2AB791240007F9A3 /* SideMenu.swift */; };
+		FE4E79122AB793770007F9A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79112AB793770007F9A3 /* HomeView.swift */; };
+		FE4E79142AB793990007F9A3 /* SideMenuu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79132AB793990007F9A3 /* SideMenuu.swift */; };
+		FE4E79162AB793C00007F9A3 /* SideMenuRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79152AB793C00007F9A3 /* SideMenuRowType.swift */; };
+		FE4E79182AB793E90007F9A3 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79172AB793E90007F9A3 /* SideMenuView.swift */; };
+		FE4E791A2AB796FA0007F9A3 /* AyetelKursiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79192AB796FA0007F9A3 /* AyetelKursiView.swift */; };
+		FE4E791C2AB797B20007F9A3 /* OkunusVeMealiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E791B2AB797B20007F9A3 /* OkunusVeMealiModel.swift */; };
+		FE4E791E2AB7984B0007F9A3 /* okunus.json in Resources */ = {isa = PBXBuildFile; fileRef = FE4E791D2AB7984B0007F9A3 /* okunus.json */; };
+		FE4E79202AB799180007F9A3 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E791F2AB799180007F9A3 /* MealView.swift */; };
+		FE4E79242AB79A000007F9A3 /* HadisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79232AB79A000007F9A3 /* HadisView.swift */; };
+		FE4E79262AB79A580007F9A3 /* FaziletleriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79252AB79A580007F9A3 /* FaziletleriView.swift */; };
+		FE4E79282AB79AF30007F9A3 /* FaydalariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E79272AB79AF30007F9A3 /* FaydalariView.swift */; };
+		FE6103782AB74CFE00F4A3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE6103772AB74CFE00F4A3D0 /* Assets.xcassets */; };
+		FE61037B2AB74CFE00F4A3D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE61037A2AB74CFE00F4A3D0 /* Preview Assets.xcassets */; };
+		FE6103852AB74CFE00F4A3D0 /* AyetelKursiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6103842AB74CFE00F4A3D0 /* AyetelKursiAppTests.swift */; };
+		FE61038F2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61038E2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.swift */; };
+		FE6103912AB74CFE00F4A3D0 /* AyetelKursiAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6103902AB74CFE00F4A3D0 /* AyetelKursiAppUITestsLaunchTests.swift */; };
+		FE6B3CC52ABC791A00669874 /* sirlari_ve_faydalari.json in Resources */ = {isa = PBXBuildFile; fileRef = FE6B3CC42ABC791A00669874 /* sirlari_ve_faydalari.json */; };
+		FE6B3CC72ABC7F5500669874 /* SirlariVeFaydalariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6B3CC62ABC7F5500669874 /* SirlariVeFaydalariModel.swift */; };
+		FED0222A2AB9955800B2BBFD /* faziletleri.json in Resources */ = {isa = PBXBuildFile; fileRef = FED022292AB9955800B2BBFD /* faziletleri.json */; };
+		FED0222C2AB9977700B2BBFD /* FaziletleriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0222B2AB9977700B2BBFD /* FaziletleriModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE6103812AB74CFE00F4A3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6103682AB74CFD00F4A3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE61036F2AB74CFD00F4A3D0;
+			remoteInfo = AyetelKursiApp;
+		};
+		FE61038B2AB74CFE00F4A3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE6103682AB74CFD00F4A3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE61036F2AB74CFD00F4A3D0;
+			remoteInfo = AyetelKursiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE0D7E4B2AB7846200B5765C /* AyetelKursiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiModel.swift; sourceTree = "<group>"; };
+		FE35A1BF2ABAD4D8002110F2 /* ilgili_hadisler.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ilgili_hadisler.json; sourceTree = "<group>"; };
+		FE35A1C12ABAD59E002110F2 /* IlgiliHadislerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IlgiliHadislerModel.swift; sourceTree = "<group>"; };
+		FE4E78FD2AB7854D0007F9A3 /* ayetel_dua_turkce.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ayetel_dua_turkce.json; sourceTree = "<group>"; };
+		FE4E78FF2AB7855E0007F9A3 /* ayetel_dua_meal.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ayetel_dua_meal.json; sourceTree = "<group>"; };
+		FE4E79012AB785700007F9A3 /* ayetel_dua_arapca.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ayetel_dua_arapca.json; sourceTree = "<group>"; };
+		FE4E79032AB7857E0007F9A3 /* hadis.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hadis.json; sourceTree = "<group>"; };
+		FE4E79082AB7903D0007F9A3 /* AyetelKursiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiApp.swift; sourceTree = "<group>"; };
+		FE4E790A2AB790640007F9A3 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		FE4E790D2AB790DF0007F9A3 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		FE4E790F2AB791240007F9A3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		FE4E79112AB793770007F9A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FE4E79132AB793990007F9A3 /* SideMenuu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuu.swift; sourceTree = "<group>"; };
+		FE4E79152AB793C00007F9A3 /* SideMenuRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowType.swift; sourceTree = "<group>"; };
+		FE4E79172AB793E90007F9A3 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		FE4E79192AB796FA0007F9A3 /* AyetelKursiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiView.swift; sourceTree = "<group>"; };
+		FE4E791B2AB797B20007F9A3 /* OkunusVeMealiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkunusVeMealiModel.swift; sourceTree = "<group>"; };
+		FE4E791D2AB7984B0007F9A3 /* okunus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = okunus.json; sourceTree = "<group>"; };
+		FE4E791F2AB799180007F9A3 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		FE4E79232AB79A000007F9A3 /* HadisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadisView.swift; sourceTree = "<group>"; };
+		FE4E79252AB79A580007F9A3 /* FaziletleriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaziletleriView.swift; sourceTree = "<group>"; };
+		FE4E79272AB79AF30007F9A3 /* FaydalariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaydalariView.swift; sourceTree = "<group>"; };
+		FE6103702AB74CFD00F4A3D0 /* AyetelKursiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyetelKursiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6103772AB74CFE00F4A3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE61037A2AB74CFE00F4A3D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE6103802AB74CFE00F4A3D0 /* AyetelKursiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyetelKursiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6103842AB74CFE00F4A3D0 /* AyetelKursiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiAppTests.swift; sourceTree = "<group>"; };
+		FE61038A2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyetelKursiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE61038E2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiAppUITests.swift; sourceTree = "<group>"; };
+		FE6103902AB74CFE00F4A3D0 /* AyetelKursiAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyetelKursiAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE6B3CC42ABC791A00669874 /* sirlari_ve_faydalari.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sirlari_ve_faydalari.json; sourceTree = "<group>"; };
+		FE6B3CC62ABC7F5500669874 /* SirlariVeFaydalariModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirlariVeFaydalariModel.swift; sourceTree = "<group>"; };
+		FE803BD92B50666400510D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FED022292AB9955800B2BBFD /* faziletleri.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = faziletleri.json; sourceTree = "<group>"; };
+		FED0222B2AB9977700B2BBFD /* FaziletleriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaziletleriModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE61036D2AB74CFD00F4A3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE61037D2AB74CFE00F4A3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6103872AB74CFE00F4A3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0D7E4A2AB7844000B5765C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D7E4B2AB7846200B5765C /* AyetelKursiModel.swift */,
+				FE4E791B2AB797B20007F9A3 /* OkunusVeMealiModel.swift */,
+				FED0222B2AB9977700B2BBFD /* FaziletleriModel.swift */,
+				FE35A1C12ABAD59E002110F2 /* IlgiliHadislerModel.swift */,
+				FE6B3CC62ABC7F5500669874 /* SirlariVeFaydalariModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE4E78FA2AB784EB0007F9A3 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E78FD2AB7854D0007F9A3 /* ayetel_dua_turkce.json */,
+				FE4E78FF2AB7855E0007F9A3 /* ayetel_dua_meal.json */,
+				FE4E79012AB785700007F9A3 /* ayetel_dua_arapca.json */,
+				FE4E79032AB7857E0007F9A3 /* hadis.json */,
+				FE4E791D2AB7984B0007F9A3 /* okunus.json */,
+				FED022292AB9955800B2BBFD /* faziletleri.json */,
+				FE35A1BF2ABAD4D8002110F2 /* ilgili_hadisler.json */,
+				FE6B3CC42ABC791A00669874 /* sirlari_ve_faydalari.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		FE4E79072AB7900A0007F9A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E79082AB7903D0007F9A3 /* AyetelKursiApp.swift */,
+				FE4E790A2AB790640007F9A3 /* SplashScreenView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FE4E790C2AB790AC0007F9A3 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E790D2AB790DF0007F9A3 /* MainTabbedView.swift */,
+				FE4E790F2AB791240007F9A3 /* SideMenu.swift */,
+				FE4E79112AB793770007F9A3 /* HomeView.swift */,
+				FE4E79132AB793990007F9A3 /* SideMenuu.swift */,
+				FE4E79152AB793C00007F9A3 /* SideMenuRowType.swift */,
+				FE4E79172AB793E90007F9A3 /* SideMenuView.swift */,
+				FE4E79192AB796FA0007F9A3 /* AyetelKursiView.swift */,
+				FE4E791F2AB799180007F9A3 /* MealView.swift */,
+				FE4E79232AB79A000007F9A3 /* HadisView.swift */,
+				FE4E79252AB79A580007F9A3 /* FaziletleriView.swift */,
+				FE4E79272AB79AF30007F9A3 /* FaydalariView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		FE6103672AB74CFD00F4A3D0 = {
+			isa = PBXGroup;
+			children = (
+				FE6103722AB74CFD00F4A3D0 /* AyetelKursiApp */,
+				FE6103832AB74CFE00F4A3D0 /* AyetelKursiAppTests */,
+				FE61038D2AB74CFE00F4A3D0 /* AyetelKursiAppUITests */,
+				FE6103712AB74CFD00F4A3D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE6103712AB74CFD00F4A3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE6103702AB74CFD00F4A3D0 /* AyetelKursiApp.app */,
+				FE6103802AB74CFE00F4A3D0 /* AyetelKursiAppTests.xctest */,
+				FE61038A2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE6103722AB74CFD00F4A3D0 /* AyetelKursiApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE803BD92B50666400510D5D /* Info.plist */,
+				FE4E790C2AB790AC0007F9A3 /* Dashboard */,
+				FE4E79072AB7900A0007F9A3 /* Utils */,
+				FE4E78FA2AB784EB0007F9A3 /* JsonData */,
+				FE0D7E4A2AB7844000B5765C /* Models */,
+				FE6103772AB74CFE00F4A3D0 /* Assets.xcassets */,
+				FE6103792AB74CFE00F4A3D0 /* Preview Content */,
+			);
+			path = AyetelKursiApp;
+			sourceTree = "<group>";
+		};
+		FE6103792AB74CFE00F4A3D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE61037A2AB74CFE00F4A3D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE6103832AB74CFE00F4A3D0 /* AyetelKursiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE6103842AB74CFE00F4A3D0 /* AyetelKursiAppTests.swift */,
+			);
+			path = AyetelKursiAppTests;
+			sourceTree = "<group>";
+		};
+		FE61038D2AB74CFE00F4A3D0 /* AyetelKursiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE61038E2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.swift */,
+				FE6103902AB74CFE00F4A3D0 /* AyetelKursiAppUITestsLaunchTests.swift */,
+			);
+			path = AyetelKursiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE61036F2AB74CFD00F4A3D0 /* AyetelKursiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6103942AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiApp" */;
+			buildPhases = (
+				FE61036C2AB74CFD00F4A3D0 /* Sources */,
+				FE61036D2AB74CFD00F4A3D0 /* Frameworks */,
+				FE61036E2AB74CFD00F4A3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AyetelKursiApp;
+			productName = AyetelKursiApp;
+			productReference = FE6103702AB74CFD00F4A3D0 /* AyetelKursiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE61037F2AB74CFE00F4A3D0 /* AyetelKursiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6103972AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiAppTests" */;
+			buildPhases = (
+				FE61037C2AB74CFE00F4A3D0 /* Sources */,
+				FE61037D2AB74CFE00F4A3D0 /* Frameworks */,
+				FE61037E2AB74CFE00F4A3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE6103822AB74CFE00F4A3D0 /* PBXTargetDependency */,
+			);
+			name = AyetelKursiAppTests;
+			productName = AyetelKursiAppTests;
+			productReference = FE6103802AB74CFE00F4A3D0 /* AyetelKursiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE6103892AB74CFE00F4A3D0 /* AyetelKursiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE61039A2AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiAppUITests" */;
+			buildPhases = (
+				FE6103862AB74CFE00F4A3D0 /* Sources */,
+				FE6103872AB74CFE00F4A3D0 /* Frameworks */,
+				FE6103882AB74CFE00F4A3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE61038C2AB74CFE00F4A3D0 /* PBXTargetDependency */,
+			);
+			name = AyetelKursiAppUITests;
+			productName = AyetelKursiAppUITests;
+			productReference = FE61038A2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE6103682AB74CFD00F4A3D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FE61036F2AB74CFD00F4A3D0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FE61037F2AB74CFE00F4A3D0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FE61036F2AB74CFD00F4A3D0;
+					};
+					FE6103892AB74CFE00F4A3D0 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FE61036F2AB74CFD00F4A3D0;
+					};
+				};
+			};
+			buildConfigurationList = FE61036B2AB74CFD00F4A3D0 /* Build configuration list for PBXProject "AyetelKursiApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE6103672AB74CFD00F4A3D0;
+			productRefGroup = FE6103712AB74CFD00F4A3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE61036F2AB74CFD00F4A3D0 /* AyetelKursiApp */,
+				FE61037F2AB74CFE00F4A3D0 /* AyetelKursiAppTests */,
+				FE6103892AB74CFE00F4A3D0 /* AyetelKursiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE61036E2AB74CFD00F4A3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE61037B2AB74CFE00F4A3D0 /* Preview Assets.xcassets in Resources */,
+				FE4E78FE2AB7854D0007F9A3 /* ayetel_dua_turkce.json in Resources */,
+				FE6103782AB74CFE00F4A3D0 /* Assets.xcassets in Resources */,
+				FED0222A2AB9955800B2BBFD /* faziletleri.json in Resources */,
+				FE4E791E2AB7984B0007F9A3 /* okunus.json in Resources */,
+				FE4E79042AB7857F0007F9A3 /* hadis.json in Resources */,
+				FE4E79002AB7855E0007F9A3 /* ayetel_dua_meal.json in Resources */,
+				FE4E79022AB785700007F9A3 /* ayetel_dua_arapca.json in Resources */,
+				FE35A1C02ABAD4D8002110F2 /* ilgili_hadisler.json in Resources */,
+				FE6B3CC52ABC791A00669874 /* sirlari_ve_faydalari.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE61037E2AB74CFE00F4A3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6103882AB74CFE00F4A3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE61036C2AB74CFD00F4A3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4E79162AB793C00007F9A3 /* SideMenuRowType.swift in Sources */,
+				FE35A1C22ABAD59F002110F2 /* IlgiliHadislerModel.swift in Sources */,
+				FE0D7E4C2AB7846200B5765C /* AyetelKursiModel.swift in Sources */,
+				FE4E791C2AB797B20007F9A3 /* OkunusVeMealiModel.swift in Sources */,
+				FE4E79202AB799180007F9A3 /* MealView.swift in Sources */,
+				FE4E79142AB793990007F9A3 /* SideMenuu.swift in Sources */,
+				FE4E79282AB79AF30007F9A3 /* FaydalariView.swift in Sources */,
+				FE4E79182AB793E90007F9A3 /* SideMenuView.swift in Sources */,
+				FE4E790B2AB790640007F9A3 /* SplashScreenView.swift in Sources */,
+				FE4E79102AB791240007F9A3 /* SideMenu.swift in Sources */,
+				FE4E79262AB79A580007F9A3 /* FaziletleriView.swift in Sources */,
+				FE4E79092AB7903D0007F9A3 /* AyetelKursiApp.swift in Sources */,
+				FED0222C2AB9977700B2BBFD /* FaziletleriModel.swift in Sources */,
+				FE6B3CC72ABC7F5500669874 /* SirlariVeFaydalariModel.swift in Sources */,
+				FE4E79122AB793770007F9A3 /* HomeView.swift in Sources */,
+				FE4E791A2AB796FA0007F9A3 /* AyetelKursiView.swift in Sources */,
+				FE4E79242AB79A000007F9A3 /* HadisView.swift in Sources */,
+				FE4E790E2AB790DF0007F9A3 /* MainTabbedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE61037C2AB74CFE00F4A3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6103852AB74CFE00F4A3D0 /* AyetelKursiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6103862AB74CFE00F4A3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE61038F2AB74CFE00F4A3D0 /* AyetelKursiAppUITests.swift in Sources */,
+				FE6103912AB74CFE00F4A3D0 /* AyetelKursiAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE6103822AB74CFE00F4A3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE61036F2AB74CFD00F4A3D0 /* AyetelKursiApp */;
+			targetProxy = FE6103812AB74CFE00F4A3D0 /* PBXContainerItemProxy */;
+		};
+		FE61038C2AB74CFE00F4A3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE61036F2AB74CFD00F4A3D0 /* AyetelKursiApp */;
+			targetProxy = FE61038B2AB74CFE00F4A3D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE6103922AB74CFE00F4A3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE6103932AB74CFE00F4A3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE6103952AB74CFE00F4A3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"AyetelKursiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AyetelKursiApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ayetel Kürsi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE6103962AB74CFE00F4A3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"AyetelKursiApp/Preview Content\"";
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AyetelKursiApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ayetel Kürsi";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FE6103982AB74CFE00F4A3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AyetelKursiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AyetelKursiApp";
+			};
+			name = Debug;
+		};
+		FE6103992AB74CFE00F4A3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AyetelKursiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AyetelKursiApp";
+			};
+			name = Release;
+		};
+		FE61039B2AB74CFE00F4A3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AyetelKursiApp;
+			};
+			name = Debug;
+		};
+		FE61039C2AB74CFE00F4A3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YCQ4KH7F3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eminecetinkaya.AyetelKursiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AyetelKursiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE61036B2AB74CFD00F4A3D0 /* Build configuration list for PBXProject "AyetelKursiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6103922AB74CFE00F4A3D0 /* Debug */,
+				FE6103932AB74CFE00F4A3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6103942AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6103952AB74CFE00F4A3D0 /* Debug */,
+				FE6103962AB74CFE00F4A3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE6103972AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6103982AB74CFE00F4A3D0 /* Debug */,
+				FE6103992AB74CFE00F4A3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE61039A2AB74CFE00F4A3D0 /* Build configuration list for PBXNativeTarget "AyetelKursiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE61039B2AB74CFE00F4A3D0 /* Debug */,
+				FE61039C2AB74CFE00F4A3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE6103682AB74CFD00F4A3D0 /* Project object */;
+}
